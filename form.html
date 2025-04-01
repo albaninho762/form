@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        h1   {color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; font-family:Arial, Helvetica, sans-serif;}
+        p    {color: red;}
+        .pagina-template{width: 100%; align-content: center; padding-top: 10%; text-align: center;}
+        img {box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+        body {
+                height: 100vh;
+                background: radial-gradient(circle, #ff005f, #2f2fd2, #00d8ff, #ff00d1);
+                background-size: 200% 200%;
+                animation: gradientAnimation 5s ease infinite;
+                position: relative;
+            }
+            
+            @keyframes gradientAnimation {
+                0% {
+                    background-position: 0% 0%;
+                }
+                100% {
+                    background-position: 100% 100%;
+                }
+            }
+    
+            .weird-shape {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 200px;
+                height: 200px;
+                background: conic-gradient(#ff9900, #ff00ff, #00ff00, #0000ff, #ff9900);
+                clip-path: polygon(50% 0%, 60% 20%, 80% 20%, 70% 40%, 90% 60%, 70% 80%, 50% 70%, 30% 80%, 10% 60%, 30% 40%, 20% 20%, 40% 20%);
+                animation: spinShape 8s infinite linear;
+            }
+    
+            @keyframes spinShape {
+                0% {
+                    transform: rotate(0deg) translate(-50%, -50%);
+                }
+                100% {
+                    transform: rotate(360deg) translate(-50%, -50%);
+                }
+            }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> conteudo</form>
+
+    <div>
+    <label for="opn">opinião :</label>
+   <input type="text" id="opn">
+</div>
+
+
+<div>
+   <label for="end"> endereço:</label>
+   <input type="number" id="end">
+</div>
+
+<div>
+   <label for="dtd">date:</label>
+   <input type="date" id="dtd">
+</div>
+
+<div>
+   <label for="pssw"> senha:</label>
+   <input type="password" id="pssw">
+</div>
+
+
+<div>
+   <label for="cnf"> comfirme:</label>
+   <input type="checkbox" id="cnf">
+</div>
+
+<div>
+   <label for="fxo"> fixo:</label>
+  <input type="radio" >
+<input type="button" id="fxo" >
+</div>
+
+
+<form >
+
+<div>
+    <label for="cmpt-nome"> cmplete name:</label>
+    <input type="text" id="cmpt-nome">
+</div>
+
+    <div>
+<label for="rb-f1">17</label>
+<input type="radio" id="rb-f1" name="rb-f1">
+</div>
+
+<div>
+<label for="rb-f1">18</label>
+<input type="radio" id="rb-f1" name="rb-f1">
+</div>
+
+<div>
+<label for="rb-f1">19</label>
+<input type="radio" id="rb-f1" name="rb-f1">
+</div>
+
+<div>
+<label for="rb-f1">20</label>
+<input type="radio" id="rb-f1" name="rb-f1">
+</div>
+
+<div>
+   
+<input type="button" value=" clique aqui">
+</div>
+
+<div>
+<label for="sl-su"> estado</label>
+<select id="sl-su">
+    <option value="pr">paraná</option>
+    <option value="sc"> santa catarina </option>
+</select>
+
+
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        h1   {color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; font-family:Arial, Helvetica, sans-serif;}
+        p    {color: red;}
+        .pagina-template{width: 100%; align-content: center; padding-top: 10%; text-align: center;}
+        img {box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+        body {
+                height: 100vh;
+                background: radial-gradient(circle, #ff005f, #2f2fd2, #00d8ff, #ff00d1);
+                background-size: 200% 200%;
+                animation: gradientAnimation 5s ease infinite;
+                position: relative;
+            }
+            
+            @keyframes gradientAnimation {
+                0% {
+                    background-position: 0% 0%;
+                }
+                100% {
+                    background-position: 100% 100%;
+                }
+            }
+    
+            .weird-shape {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 200px;
+                height: 200px;
+                background: conic-gradient(#ff9900, #ff00ff, #00ff00, #0000ff, #ff9900);
+                clip-path: polygon(50% 0%, 60% 20%, 80% 20%, 70% 40%, 90% 60%, 70% 80%, 50% 70%, 30% 80%, 10% 60%, 30% 40%, 20% 20%, 40% 20%);
+                animation: spinShape 8s infinite linear;
+            }
+    
+            @keyframes spinShape {
+                0% {
+                    transform: rotate(0deg) translate(-50%, -50%);
+                }
+                100% {
+                    transform: rotate(360deg) translate(-50%, -50%);
+                }
+            }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewer">
+    <title>Divs </title>
+</head>
+<body>
+ <div style="border: solid 5px rgb(255, 0, 0);">
+    
+      <h2> RB19 Race car Redbull 2023</h2>
+      
+
+      
+</div>
+<div>
+    <h5>O Red Bull Racing RB19 foi o modelo de carro construído e utilizado pela Red Bull Racing para a disputa do Campeonato Mundial de Fórmula 1 de 2023</h5>
+
+    
+    
+    <img width="500px" height="auto" src="rb19.jpg"/>
+    <p></p>
+    <a href="https://pt.wikipedia.org/wiki/Red_Bull_Racing_RB19/">RB 19</a>
+</div> 
+  
+<div style="border: solid 5px blue">
+    <h4>O Red Bull Racing RB19 foi o modelo de carro construído e utilizado pela Red Bull Racing para a disputa do Campeonato Mundial de Fórmula 1 de 2023, pilotado por 
+        Max Verstappen e Sergio Pérez.
+         O carro foi revelado em Nova Iorque em 3 de fevereiro de 2023.
+        Esse modelo marcou o retorno da Honda oficialmente como o fornecedor de motores da equipe e da AlphaTauri, com as duas equipes nomeando o motor como Honda RBPT.
+    <h4>
+</div>
+
+  <div style="border: 2px red;">
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            color: rgb(255, 255, 255);
+            text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            color: red;
+        }
+
+        .pagina-template {
+            width: 100%;
+            align-content: center;
+            padding-top: 10%;
+            text-align: center;
+        }
+
+        img {
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+
+        body {
+            height: 100vh;
+            background: radial-gradient(circle, #ff005f, #2f2fd2, #00d8ff, #ff00d1);
+            background-size: 200% 200%;
+            animation: gradientAnimation 5s ease infinite;
+            position: relative;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        .weird-shape {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background: conic-gradient(#ff9900, #ff00ff, #00ff00, #0000ff, #ff9900);
+            clip-path: polygon(50% 0%, 60% 20%, 80% 20%, 70% 40%, 90% 60%, 70% 80%, 50% 70%, 30% 80%, 10% 60%, 30% 40%, 20% 20%, 40% 20%);
+            animation: spinShape 8s infinite linear;
+        }
+
+        @keyframes spinShape {
+            0% {
+                transform: rotate(0deg) translate(-50%, -50%);
+            }
+
+            100% {
+                transform: rotate(360deg) translate(-50%, -50%);
+            }
+        }
+    </style>
+
+<img width="500px" height="auto" src="/AAA/F1-verstappen-bahrain-2023-dia-1-teste.jpg"/>
+
+    <h4>E chegou o RB19. O carro da Red Bull Racing pra temporada 2023 da Fórmula 1 foi apresentado em Nova York e
+        parece bem semelhante ao RB18, que no ano passado foi campeão de pilotos e construtores. Os tons de azul escuro,
+        amarelo e vermelho foram mantidos praticamente intactos e as novidades técnicas serão observadas quando o carro
+        for pra a pista, no Bahrein, pra pré-temporada.
+        O evento de lançamento não teve apenas o RB19 como grande novidade. A equipe anunciou que vai correr com pintura
+        diferente nas três corridas nos EUA (Miami, Austin e Las Vegas) e o carro estampará uma arte feita pelos fãs.
+        Além disso, a Ford anunciou que será a parceira técnica da Red Bull Racing a partir de 2026, quando estreia um
+        novo regulamento. É a volta da montadora americana após duas décadas de ausência na categoria, numa parceria que
+        já existe, por exemplo, no Mundial de Rali.
+    </h4>
+
+    <a href="/paginadupla.html/lista.html"> cars list RB 19</a>
+
+
+
+</body>
+
+</html>
